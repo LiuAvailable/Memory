@@ -1,0 +1,6 @@
+<h3>ERRORS = {{getErrors()}}</h3>
+<div class="tauler">
+    <div *ngFor="let fila of getTauler().files;">
+        <app-baralla [baralla]="fila"></app-baralla>
+    </div>
+</div>
